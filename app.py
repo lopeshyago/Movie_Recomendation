@@ -22,9 +22,3 @@ if st.button('Recommend'):
     st.subheader('Recommended movies:')
     for i in movie_indices:
         st.write(movies['title'].iloc[i])
-
-st.markdown('''---
-**How does the recommendation work?**
-
-Recommendations are made based on the content similarity between movies. The system combines information from genre, cast, director, and storyline for each movie, creating a unique textual representation. This representation is transformed into vectors using the TF-IDF technique, and the similarity between movies is calculated using the cosine metric. When you select a movie, the system returns the 5 most similar titles according to this calculation.
----''')
