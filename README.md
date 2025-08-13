@@ -27,10 +27,10 @@ MovieRec combines information from genre, cast, director, and storyline for each
 You can deploy this app for free on [Streamlit Community Cloud](https://streamlit.io/cloud). Just upload your code and data files.
 
 ## Example
-![App Screenshot](screenshot.png)
+![App Screenshot](example.png)
 
 ## Live Demo
-[Add your Streamlit Cloud link here]
+[Live Demo](https://mooviesrecomendation.streamlit.app/)
 
 ---
 
